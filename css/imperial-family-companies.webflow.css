@@ -742,7 +742,7 @@
     padding-bottom: 60px;
   }
   .port-link {
-    display: block;
+    display: none;
     font-size: 12px;
     line-height: 12px;
   }
@@ -773,8 +773,7 @@
     font-size: 7.5vw;
   }
   .div-block-10 {
-    display: -ms-grid;
-    display: grid;
+    display: none;
     grid-auto-columns: 1fr;
     grid-column-gap: 2px;
     grid-row-gap: 2px;
@@ -801,8 +800,8 @@
     width: 40%;
   }
   .grid {
-    -ms-grid-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
   }
   .text-port {
     font-size: 3vw;
